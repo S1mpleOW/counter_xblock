@@ -7,12 +7,6 @@ from xblock.fields import Integer, Scope
 
 
 class CounterXBlock(XBlock):
-    """
-    TO-DO: document what your XBlock does.
-    """
-
-    # Fields are defined on the class.  You can access them in your code as
-    # self.<fieldname>.
 
     count = Integer(
         default=0, scope=Scope.user_state,

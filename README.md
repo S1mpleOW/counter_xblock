@@ -2,6 +2,11 @@
 
 This is a simple XBlock counter that counts the number of clicks on a button.
 
+## Pre-requisites
+
+- Make sure you have XBlock-SDK installed on your system. If not, follow the instructions below to install it:
+  [XBlock-SDK installation](https://edx-docs.fastai.dev/vi/latest/edx-series.html#cai-dat-va-trien-khai-xblock-sdk)
+
 ## Installation
 
 To install and use the Simple XBlock Counter, follow these steps:
@@ -9,24 +14,28 @@ To install and use the Simple XBlock Counter, follow these steps:
 1. Make sure you have Python installed or virtual environment on your system.
 
 2. Follow the instruction below to install and configure Xblock SDK
-  ```
-    https://github.com/openedx/xblock-sdk
-  ```
+
+```
+  https://github.com/openedx/xblock-sdk
+```
 
 3. Clone the repository to the xblock-sdk directory:
-  ```
-    git clone https://github.com/S1mpleOW/counter_xblock.git .
-  ```
+
+```
+  git clone https://github.com/S1mpleOW/counter_xblock.git .
+```
 
 4. Install the required dependencies:
-  ```
-    pip install -e counter
-  ```
+
+```
+  pip install -e counter
+```
 
 6. Start the XBlock runtime server:
-  ```
-    python manage.py runserver
-  ```
+
+```
+  python manage.py runserver
+```
 
 7. Open your web browser and access the XBlock Workbench at `http://localhost:8000/`.
 
@@ -37,3 +46,8 @@ Once the Simple XBlock Counter is added to your course, it will display a button
 ## Customization
 
 You can customize the appearance and behavior of the Simple XBlock Counter by modifying the source code. Refer to the documentation and code comments for more information on how to customize the XBlock.
+
+## References
+
+- [Series tìm hiểu XBlock](https://edx-docs.fastai.dev/vi/latest/edx-series.html)
+- [Series giới thiệu XBlock-SDK](https://edx-docs.fastai.dev/vi/latest/xblock-sdk-series.html)
